@@ -39,7 +39,7 @@ for(let i = 0; i < users.length; i++){
     paragraph.innerHTML += users[i].Role
     paragraph.innerHTML += "<br>"
     console.log(users[i].Image)
-    paragraph.innerHTML += users[i].Image
+    paragraph.innerHTML += `<img src="./img/${users[i].Image}">`
     paragraph.innerHTML += "<hr>"
 
 }
