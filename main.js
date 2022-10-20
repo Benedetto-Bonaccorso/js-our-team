@@ -1,3 +1,7 @@
+let heading = document.getElementById("heading")
+
+let paragraph = document.getElementById("paragraph")
+
 let users = [
 
     {Name: "Wayne Barnett",
@@ -23,6 +27,13 @@ let users = [
     {Name: "Barbara Ramos",
     Role: "Grafic designer",
     Image: "barbara-ramos-graphic-designer.jpg"},
+
 ]
 
-console.log(users)
+for(let i = 0; i < users.length; i++){
+    
+    console.log(users[i].Name)
+    console.log(users[i].Role)
+    console.log(users[i].Image)
+
+}
