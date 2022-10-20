@@ -32,14 +32,15 @@ let users = [
 
 for(let i = 0; i < users.length; i++){
     
-    console.log(users[i].Name)
-    paragraph.innerHTML += users[i].Name
-    paragraph.innerHTML += "<br>"
-    console.log(users[i].Role)
-    paragraph.innerHTML += users[i].Role
-    paragraph.innerHTML += "<br>"
-    console.log(users[i].Image)
-    paragraph.innerHTML += `<img src="./img/${users[i].Image}">`
-    paragraph.innerHTML += "<hr>"
+    paragraph.innerHTML += 
+    `<div class="card"> 
 
+    <p class="name">${users[i].Name}</p>
+    <br>
+    <p class="role">${users[i].Role}</p>
+    <br>
+    <img class ="image" src="./img/${users[i].Image}">
+    <br>
+
+    </div>`
 }

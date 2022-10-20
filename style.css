@@ -1,3 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img{
+    max-width: 100%;
+}
+
 body{
     background-color: slateblue;
+}
+
+#heading{
+    text-align: center;
+    margin: 4rem;
+    color: white;
+}
+
+#paragraph{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card{
+    width: calc(100% / 3 - 3rem);
+    padding: 2rem;
+    margin: 1rem;
+    background-color: blanchedalmond;
+    border-radius: 50px;
+    text-align: center;
+    min-width: 230px;
+}
+
+.card>img{
+    border-radius: 20px;
+}
+
+.name{
+    font-size: larger;
+    font-weight: 700;
+}
+
+.role{
+    font-size: large;
 }
