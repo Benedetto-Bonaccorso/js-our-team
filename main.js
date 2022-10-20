@@ -33,7 +33,13 @@ let users = [
 for(let i = 0; i < users.length; i++){
     
     console.log(users[i].Name)
+    paragraph.innerHTML += users[i].Name
+    paragraph.innerHTML += "<br>"
     console.log(users[i].Role)
+    paragraph.innerHTML += users[i].Role
+    paragraph.innerHTML += "<br>"
     console.log(users[i].Image)
+    paragraph.innerHTML += users[i].Image
+    paragraph.innerHTML += "<hr>"
 
 }
