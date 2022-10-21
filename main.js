@@ -16,7 +16,7 @@ let users = [
     Role: "Chief Editor",
     Image: "walter-gordon-office-manager.jpg"}, 
 
-    {Name: "Waleter gordon",
+    {Name: "Hernando Diaz",
     Role: "Social Media Manager",
     Image: "angela-lopez-social-media-manager.jpg"},
 
